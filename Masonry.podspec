@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/cloudkite/Masonry'
   s.author   = { 'Jonas Budelmann' => 'jonas.budelmann@gmail.com' }
   s.social_media_url = "http://twitter.com/cloudkite"
-  s.source   = { :git => 'https://github.com/HerenMA/Masonry.git', :tag => "v#{s.version}" }
+  s.source   = { :git => 'https://github.com/HerenMA/Masonry.git', :tag => s.version.to_s }
   s.description = %{
     Masonry is a light-weight layout framework which wraps AutoLayout with a nicer syntax.
 	Masonry has its own layout DSL which provides a chainable way of describing your
